@@ -50,7 +50,7 @@
 				"large" : "skills/magicFaderLargeExpert",
 				"scenarioBonus" : "skills/magicFaderSmallExpert"
 			},
-			"description" : "{Expert Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 3, 4 and 5 spells during combat."
+			"description" : "{Expert Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 3, 4 and 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockExp"
