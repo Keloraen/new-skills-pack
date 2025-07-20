@@ -1,6 +1,6 @@
 {
-	"name" : "Magic Fader",
-	"description" : "New secondary skill: Magic Fader. Partially blocks casting spells by enemy hero.",
+	"name": "Magic Fader",
+	"description": "Blocks selected spells from being cast by the enemy hero during battle:<br>•&nbsp;Skill level determines which spells are blocked:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Basic</b>: blocks <b>level 5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Advanced</b>: blocks <b>level 4–5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Expert</b>: blocks <b>level 3–5</b> spells<br><br>•&nbsp;Random learning of this skill is extremely rare",
 	"version" : "2.0.0",
 	"author" : "avatar. Graphic: HotA Team (rejected material).",
 	"contact" : "",
@@ -32,27 +32,18 @@
 	
 	"chinese" : {
 		"name" : "法术抑制",
-		"description" : "添加新技能：法术抑制。 阻止敌方英雄施放部分法术。",
-		"translations" : [
-			"config/translation/chinese.json"
-		]
+		"description" : "在战斗中阻止敌方英雄施放特定法术：<br>•&nbsp;技能等级决定哪些法术会被阻止：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>基础</b>：阻止<b>5级</b>法术<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>进阶</b>：阻止<b>4–5级</b>法术<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>专家</b>：阻止<b>3–5级</b>法术<br><br>•&nbsp;随机学习此技能的几率极低"
 	},
 	"czech" : {
 		"name" : "Antimagie",
-		"description" : "Přidává novou dovednost: Antimagie. Blokuje nepřátelskému hrdinovi možnost sesílat některá kouzla.",
-		"translations" : [
-			"config/translation/czech.json"
-		]
-	},
-	"russian" : {
-		"name" : "Магическая завеса",
-		"description" : "Добавляет новый вторичный навык: Магическая завеса. Частично блокирует использование заклинаний вражеским героем.",
-		"translations" : [
-			"config/translation/russian.json"
-		]
+		"description" : "Blokuje sesílání vybraných kouzel nepřátelským hrdinou během bitvy:<br>•&nbsp;Úroveň dovednosti určuje, které kouzla nelze seslat:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Základní</b>: blokuje kouzla <b>5. úrovně</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Lepší</b>: blokuje kouzla <b>4.–5. úrovně</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Expertní</b>: blokuje kouzla <b>3.–5. úrovně</b><br><br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné"
 	},
 	"polish" : {
 		"name" : "Tłumienie magii",
-		"description" : "Nowa umiejętność: Tłumienie magii. Częściowo blokuje możliwość rzucania czarów przez wrogich bohaterów."
+		"description" : "Blokuje rzucanie wybranych zaklęć przez wrogiego bohatera podczas bitwy:<br>•&nbsp;Poziom umiejętności decyduje, które zaklęcia zostaną zablokowane:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Podstawowy</b>: blokuje zaklęcia <b>poziomu 5</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Zaawansowany</b>: blokuje zaklęcia <b>poziomów 4–5</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Mistrzowski</b>: blokuje zaklęcia <b>poziomów 3–5</b><br><br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie"
+	},
+	"russian" : {
+		"name" : "Магическая завеса",
+		"description" : "Блокирует применение заклинаний вражеским героем во время боя:<br>•&nbsp;Уровень навыка определяет, какие заклинания будут заблокированы:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Базовый</b>: блокирует заклинания <b>5 уровня</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Продвинутый</b>: блокирует заклинания <b>4–5 уровней</b><br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Экспертный</b>: блокирует заклинания <b>3–5 уровней</b><br><br>•&nbsp;Случайное изучение этого навыка крайне маловероятно"
 	}
 }

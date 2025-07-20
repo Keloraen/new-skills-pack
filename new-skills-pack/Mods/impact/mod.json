@@ -1,6 +1,6 @@
 {
-	"name" : "Impact Skill",
-	"description" : "The unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Bjorn(Castle) and Tharag(Stronghold) with a specialization in Impact skill",
+	"name": "Impact",
+	"description": "The incredible speed and strength of your units' attacks reduces enemy defense:<br>•&nbsp;Reduction: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Impact:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> for Castle<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> for Stronghold",
 	"author": "FallainBlack",
 	"version" : "1.0.0",
     "modType" : "Skills",
@@ -12,7 +12,7 @@
 
 	"skills" :
 	[
-		"config/skills/fbimpact.json"
+		"config/skills/impact.json"
 	],
 	
     "heroes" :
@@ -20,13 +20,17 @@
 		"config/heroes/nspbjorn.json",
 		"config/heroes/nsptharag.json"
 	],
-	
+
+	"czech" : {
+		"name" : "Údernost",
+		"description" : "Nečekaná rychlost a síla útoků tvých jednotek snižuje obranu nepřátel o:<br>•&nbsp;<b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na údernost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> pro Hrad<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> pro Pevnost"
+	},
 	"polish" : {
 		"name" : "Uderzenie",
-		"description" : "ZBezprecedensowa szybkość i siła ciosów Twoich jednostek obniża obronę wroga o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie Bjorn(Castle) i Tharag(Stronghold) ze specjalizacją w umiejętności Uderzenie"
+		"description" : "Bezprecedensowa szybkość i siła ataków twoich jednostek obniża obronę wrogów:<br>•&nbsp;Zmniejszenie obrony: <b>5% / 10% / 15%</b> w zależności od poziomu umiejętności<br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie<br><br>•&nbsp;Dodaje nowych bohaterów ze specjalizacją w Uderzeniu:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> dla Zamku<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> dla Twierdzy"
 	},
 	"russian" : {
 		"name" : "Натиск",
-		"description" : "Беспрецедентная скорость и мощь ударов ваших юнитов снижают защиту противника на 5%/10%/15%. Вероятность получения навыка случайным образом минимальна (1). Кроме того, появились новые герои - Бьорн (Замок) и Торакс (Крепость), специализирующиеся на навыке Натиск."
+		"description" : "Беспрецедентная скорость и мощь ударов ваших юнитов снижает защиту врагов:<br>•&nbsp;Снижение защиты: <b>5% / 10% / 15%</b> в зависимости от уровня навыка<br>•&nbsp;Случайное изучение этого навыка крайне маловероятно<br><br>•&nbsp;Добавляет новых героев со специализацией в Натиске:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Бьорн</b> для Замка<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Тараг</b> для Крепости"
 	}
 }

@@ -40,27 +40,24 @@
                 "level": "basic"
             },
             {
-                "skill": "fbimpact",
+                "skill": "impact",
                 "level": "basic"
             }
         ],
         "specialty": {
             "bonuses": {
-                "fbimpact": {
+                "impact": {
                     "type": "ENEMY_DEFENCE_REDUCTION",
                     "targetSourceType": "SECONDARY_SKILL",
                     "val": 0,
                     "valueType": "ADDITIVE_VALUE",
-                    "updater": {
-                        "parameters": [
-                            10,
-                            1
-                        ],
-                        "type": "GROWS_WITH_LEVEL"
-                    }
+					"updater": {
+						"type": "GROWS_WITH_LEVEL",
+						"valPer20": 10,
+						"stepSize": 2
+					}
                 }
             }
-
         }
     }
 }
