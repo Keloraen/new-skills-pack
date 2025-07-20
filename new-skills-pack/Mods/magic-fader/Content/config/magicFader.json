@@ -22,7 +22,7 @@
 				"large" : "skills/magicFaderLargeBasic",
 				"scenarioBonus" : "skills/magicFaderSmallBasic"
 			},
-			"description" : "{Basic Magic Fader}\n\nDuring battle blocks casting 5 lvl spells by enemy hero.",
+			"description" : "{Basic Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockBas"
@@ -36,7 +36,7 @@
 				"large" : "skills/magicFaderLargeAdvanced",
 				"scenarioBonus" : "skills/magicFaderSmallAdvanced"
 			},
-			"description" : "{Advanced Magic Fader}\n\nDuring battle blocks casting 4-5 lvl spells by enemy hero.",
+			"description" : "{Advanced Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 4 and 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockAdv"
@@ -50,7 +50,7 @@
 				"large" : "skills/magicFaderLargeExpert",
 				"scenarioBonus" : "skills/magicFaderSmallExpert"
 			},
-			"description" : "{Expert Magic Fader}\n\nDuring battle blocks casting 3-5 lvl spells by enemy hero.",
+			"description" : "{Expert Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 3, 4 and 5 spells during combat."
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockExp"
