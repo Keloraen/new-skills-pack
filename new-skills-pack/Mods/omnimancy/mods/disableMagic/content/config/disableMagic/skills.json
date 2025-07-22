@@ -1,0 +1,14 @@
+{
+	"core:fireMagic" : {
+		"special" : true
+	},
+	"core:airMagic" : {
+		"special" : true
+	},
+	"core:waterMagic" : {
+		"special" : true
+	},
+	"core:earthMagic" : {
+		"special" : true
+	}
+}

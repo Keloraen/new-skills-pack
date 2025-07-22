@@ -1,0 +1,40 @@
+{
+	"name": "Omnimancy",
+	"description": "Allows casting spells from all elemental schools at lower mana cost and increased power:<br>•&nbsp;<b>Basic</b>: reduced mana cost<br>•&nbsp;<b>Advanced</b>: reduced cost and improved effect<br>•&nbsp;<b>Expert</b>: minimal cost and maximum effect<br><br>•&nbsp;Replaces Fire, Water, Air, and Earth Magic<br>•&nbsp;Heroes who previously started with these schools now start with Omnimancy<br><br>•&nbsp;In Conflux towns, the University now offers: Learning, Intelligence, Sorcery, and Scholar",
+	"author": "kdmcser, Maestro & xiasimanniu",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Skills",
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+	"conflicts" :
+	[
+		"phoenix-as-a-dream"
+	],
+	"changelog" :
+	{
+		"1.0.0" : [ "Initial release" ]
+	},
+
+	"czech" : {
+		"name": "Omnimancie",
+		"description": "Umožňuje sesílat kouzla všech škol magie s nižší cenou many a vyšší účinností:<br>•&nbsp;<b>Základní</b>: nižší cena kouzel<br>•&nbsp;<b>Lepší</b>: nižší cena a vyšší účinnost<br>•&nbsp;<b>Expertní</b>: minimální cena a maximální účinnost<br><br>•&nbsp;Nahrazuje magii ohně, vody, vzduchu a země<br>•&nbsp;Hrdinové, kteří tyto školy měli jako výchozí, nyní začínají s omnimancií<br><br>•&nbsp;V městech Soutoku univerzita nově nabízí: Vzdělávání, Inteligence, Kouzelnictví a Učenec"
+	},
+
+	"polish": {
+		"name": "Omnimancja",
+		"description": "Pozwala rzucać zaklęcia ze wszystkich szkół żywiołów przy niższym koszcie many i większej skuteczności:<br>•&nbsp;<b>Podstawowy</b>: zmniejszony koszt many<br>•&nbsp;<b>Zaawansowany</b>: mniejszy koszt i większy efekt<br>•&nbsp;<b>Mistrzowski</b>: minimalny koszt i maksymalna skuteczność<br><br>•&nbsp;Zastępuje magię ognia, wody, powietrza i ziemi<br>•&nbsp;Bohaterowie, którzy wcześniej zaczynali z tymi szkołami, mają teraz omnimancję<br><br>•&nbsp;W miastach Conflux Uniwersytet oferuje teraz: Nauka, Inteligencja, Czarodziejstwo i Uczony"
+	},
+
+	"russian": {
+		"name": "Омнимантия",
+		"description": "Позволяет использовать заклинания всех элементальных школ с меньшей ценой и большей силой:<br>•&nbsp;<b>Базовый</b>: сниженная стоимость маны<br>•&nbsp;<b>Продвинутый</b>: сниженная стоимость и увеличенный эффект<br>•&nbsp;<b>Экспертный</b>: минимальная стоимость и максимальный эффект<br><br>•&nbsp;Заменяет магию Огня, Воды, Воздуха и Земли<br>•&nbsp;Герои, начинавшие с этих школ, теперь начинают с Омнимантией<br><br>•&nbsp;В городах Сопряжения университет теперь предлагает: Обучение, Интеллект, Колдовство и Учёный"
+	},
+
+	"skills" :
+	[
+		"config/Omnimancy/skills/Omnimancy.json"
+	]
+}

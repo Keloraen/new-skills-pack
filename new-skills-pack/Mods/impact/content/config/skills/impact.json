@@ -18,7 +18,7 @@
 				"small": "skills/impact/bsmall",
 				"medium": "skills/impact/bmedium",
 				"large": "skills/impact/blarge",
-				"scenarioBonus": "skills/impact/bsmall"
+				"scenarioBonus": "skills/impact/blargebonus"
 			},
 			"description": "{Basic Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%.",
 			"effects" : {
@@ -30,7 +30,7 @@
 				"small": "skills/impact/asmall",
 				"medium": "skills/impact/amedium",
 				"large": "skills/impact/alarge",
-				"scenarioBonus": "skills/impact/asmall"
+				"scenarioBonus": "skills/impact/alargebonus"
 			},
 			"description": "{Advanced Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 10%.",
 			"effects" : {
@@ -42,7 +42,7 @@
 				"small": "skills/impact/esmall",
 				"medium": "skills/impact/emedium",
 				"large": "skills/impact/elarge",
-				"scenarioBonus": "skills/impact/esmall"
+				"scenarioBonus": "skills/impact/elargebonus"
 			},
 			"description": "{Expert Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 15%.",
 			"effects" : {

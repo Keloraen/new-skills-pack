@@ -22,10 +22,10 @@
 		"class": "ranger",
     "images" :
     {
-      "specialtySmall" : "spec/nimblenesss.png",
-      "specialtyLarge" : "spec/nimblenessl.png",
-      "small" : "heroes/nspellaria/nspellarias",
-      "large" : "heroes/nspellaria/nspellarial"
+		"specialtySmall": "skills/nimbleness/bnimblenesssmall",
+		"specialtyLarge":"skills/nimbleness/bnimblenessmedium",
+		"small" : "heroes/nspellaria/nspellarias",
+		"large" : "heroes/nspellaria/nspellarial"
     },
 		"skills": [
 			{

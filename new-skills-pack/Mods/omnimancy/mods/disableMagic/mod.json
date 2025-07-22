@@ -1,0 +1,31 @@
+{
+	"name" : "Disable individual magic skill",
+	"description" : "Disable Magic of Fire, Water, Wind and Ground",
+	"author": "",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Compatibility",
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"skills" :
+	[
+		"config/disableMagic/skills.json"
+	],
+	"heroes" :
+	[
+		"config/disableMagic/heroes.json"
+	],
+	"objects" :
+	[
+		"config/disableMagic/objects.json"
+	],
+    "factions": [
+        "config/disableMagic/buildings.json"
+	]
+}

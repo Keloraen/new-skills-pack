@@ -1,0 +1,59 @@
+{
+	"omnimancy" : {
+		"name" : "Omnimancy",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 6
+		},
+		"specialty" : [], // generic specialty not applicable
+		"obligatoryMinor" : true,
+		"basic" : {
+			"images" : {
+				"small" : "omnimancy/skills/omnimancyBasicSmall",
+				"medium" : "omnimancy/skills/omnimancyBasicMedium",
+				"large" : "omnimancy/skills/omnimancyBasicLarge",
+				"scenarioBonus": "omnimancy/skills/omnimancyBasicBonus"
+			},
+			"description" : "{Basic Omnimancy}\n\nAllows your hero to cast spells from all elemental schools at reduced cost.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "omnimancy/skills/omnimancyAdvSmall",
+				"medium" : "omnimancy/skills/omnimancyAdvMedium",
+				"large" : "omnimancy/skills/omnimancyAdvLarge",
+				"scenarioBonus": "omnimancy/skills/omnimancyAdvBonus"
+			},
+			"description" : "{Advanced Omnimancy}\n\nAllows your hero to cast spells from all elemental schools at reduced cost and increased effectiveness.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "omnimancy/skills/omnimancyExpSmall",
+				"medium" : "omnimancy/skills/omnimancyExpMedium",
+				"large" : "omnimancy/skills/omnimancyExpLarge",
+				"scenarioBonus": "omnimancy/skills/omnimancyExpBonus"
+			},
+			"description" : "{Expert Omnimancy}\n\nAllows your hero to cast spells from all elemental schools at reduced cost and maximum effectiveness.",
+			"effects" : {
+				"magicSchoolSkill" : {
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "any",
+					"val": 3
+				}
+			}
+		}
+	}
+}

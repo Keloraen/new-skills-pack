@@ -13,8 +13,8 @@
             }
         },
         "images": {
-            "specialtySmall": "spec/anatomys.png",
-            "specialtyLarge": "spec/anatomyl.png",
+			"specialtySmall": "skills/anatomy/bsmall",
+			"specialtyLarge": "skills/anatomy/bmedium",
             "small": "heroes/nspteressa/nspteressas.png",
             "large": "heroes/nspteressa/nspteressal.png"
         },
