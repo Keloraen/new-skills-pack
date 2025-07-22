@@ -5,6 +5,7 @@
 			"might" : 1,
 			"magic" : 1
 		},
+		"specialty" : [], // no generic specialty
 		"base" : {
 			"effects" : {
 				"blockCast" : {
@@ -18,9 +19,10 @@
 			"images" : {
 				"small" : "skills/magicFaderSmallBasic",
 				"medium" : "skills/magicFaderMediumBasic",
-				"large" : "skills/magicFaderLargeBasic"
+				"large" : "skills/magicFaderLargeBasic",
+				"scenarioBonus" : "skills/magicFaderSmallBasic"
 			},
-			"description" : "{Basic Magic Fader}\n\nDuring battle blocks casting 5 lvl spells by enemy hero.",
+			"description" : "{Basic Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockBas"
@@ -31,9 +33,10 @@
 			"images" : {
 				"small" : "skills/magicFaderSmallAdvanced",
 				"medium" : "skills/magicFaderMediumAdvanced",
-				"large" : "skills/magicFaderLargeAdvanced"
+				"large" : "skills/magicFaderLargeAdvanced",
+				"scenarioBonus" : "skills/magicFaderSmallAdvanced"
 			},
-			"description" : "{Advanced Magic Fader}\n\nDuring battle blocks casting 4-5 lvl spells by enemy hero.",
+			"description" : "{Advanced Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 4 and 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockAdv"
@@ -44,9 +47,10 @@
 			"images" : {
 				"small" : "skills/magicFaderSmallExpert",
 				"medium" : "skills/magicFaderMediumExpert",
-				"large" : "skills/magicFaderLargeExpert"
+				"large" : "skills/magicFaderLargeExpert",
+				"scenarioBonus" : "skills/magicFaderSmallExpert"
 			},
-			"description" : "{Expert Magic Fader}\n\nDuring battle blocks casting 3-5 lvl spells by enemy hero.",
+			"description" : "{Expert Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 3, 4 and 5 spells during combat.",
 			"effects" : {
 				"blockCast" : {
 					"subtype" : "spell.blockExp"

@@ -1,6 +1,6 @@
 {
-	"name" : "Fury Skill",
-	"description" : "Battle Fury increases the number of enemies killed by your units by 5%/10%/15%. The chance of learning a skill randomly is minimal (1). Additionally new heroes - Ex(Inferno) and Aldarion(Dungeon) with a specialization in Fury skill",
+	"name": "Fury",
+	"description": "Battle Fury increases the number of enemies killed by your units:<br>•&nbsp;Increase: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Fury:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> for Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> for Dungeon",
 	"author": "FallainBlack",
 	"version" : "1.0.0",
     "modType" : "Skills",
@@ -12,7 +12,7 @@
 
 	"skills" :
 	[
-        "config/skills/fbfury.json"
+        "config/skills/fury.json"
 	],
 	
 	"heroes" :
@@ -20,13 +20,16 @@
         "config/heroes/nspex.json",
         "config/heroes/nspaldarion.json"
 	],
-	
+	"czech" : {
+		"name" : "Zuřivost",
+		"description" : "Bitevní zuřivost zvyšuje počet nepřátel zabitých tvými jednotkami:<br>•&nbsp;Navýšení: <b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na zuřivost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> pro Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> pro Kobku"
+	},	
 	"polish" : {
 		"name" : "Furia",
-		"description" : "Furia Bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki o 5%/10%/15%. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Ex(Inferno) i Aldarion(Dungeon) ze specjalizacją w umiejętności Fuia"
+		"description" : "Furia bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki:<br>•&nbsp;Zwiększenie: <b>5% / 10% / 15%</b> w zależności od poziomu umiejętności<br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie<br><br>•&nbsp;Dodaje nowych bohaterów ze specjalizacją w Furii:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> dla Inferna<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> dla Lochów"
 	},
 	"russian" : {
 		"name" : "Ярость",
-		"description" : "Боевая ярость увеличивает количество врагов, убитых вашими подразделениями, на 5%/10%/15%. Вероятность случайного получения навыка минимальна (1). Дополнительно добавлены новые герои - Экс (Инферно) и Алдарион (Подземелье), специализирующиеся на навыке Ярость"
+		"description" : "Боевая ярость увеличивает количество врагов, убитых вашими отрядами:<br>•&nbsp;Увеличение: <b>5% / 10% / 15%</b> в зависимости от уровня навыка<br>•&nbsp;Случайное изучение этого навыка крайне маловероятно<br><br>•&nbsp;Добавляет новых героев со специализацией в Ярости:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Экс</b> для Инферно<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Алдарион</b> для Подземелья"
 	}
 }

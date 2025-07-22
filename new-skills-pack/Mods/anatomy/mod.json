@@ -1,6 +1,6 @@
 {
-	"name" : "Anatomy Skill",
-	"description" : "Allows all units in your army to find weak points on enemy creatures, giving them a 5%/10%/15% chance to deal double damage.The chance of learning a skill randomly is minimal (1). Additionally new heroes - Teressa (Necropolis) and Gwydio n(Tower), with a specialization in Anatomy skill",
+	"name": "Anatomy",
+	"description": "Allows your units to detect weak spots in enemies:<br>•&nbsp;Chance to deal double damage: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Anatomy:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Teressa</b> for Necropolis<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Gwydion</b> for Tower",
 	"author": "FallainBlack",
 	"version" : "1.0.0",
     "modType" : "Skills",
@@ -12,7 +12,7 @@
 
     "skills" :
 	[
-		"config/skills/fbanatomy.json"
+		"config/skills/anatomy.json"
 	],
 	
     "heroes" :
@@ -20,14 +20,17 @@
         "config/heroes/nspteressa.json",
         "config/heroes/nspgwydion.json"
 	],
-	
+
+	"czech" : {
+		"name" : "Anatomie",
+		"description" : "Umožňuje jednotkám v armádě nacházet slabá místa nepřátel:<br>•&nbsp;Šance na dvojnásobné poškození: <b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na anatomii:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Teressa</b> pro Nekropoli<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Gwydion</b> pro Věž"
+	},
 	"polish" : {
 		"name" : "Anatomia",
-		"description" : "Pozwala wszystkim jednostkom w twojej armii znaleźć słabe punkty u wrogich stworzeń, dając im 5%/10%/15% szansy na zadanie podwójnych obrażeń. Szansa na losowe nauczenie się umiejętności jest minimalna (1). Dodatkowo nowi bohaterowie - Teressa(NekropoliS) i Gwydion(Tower), ze specjalizacją w umiejętności Anatomia"
+		"description" : "Pozwala jednostkom w armii odnajdywać słabe punkty wrogów:<br>•&nbsp;Szansa na podwojone obrażenia: <b>5% / 10% / 15%</b> w zależności od poziomu umiejętności<br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie<br><br>•&nbsp;Dodaje nowych bohaterów ze specjalizacją w Anatomii:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Teressa</b> dla Nekropolii<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Gwydion</b> dla Wieży"
 	},
 	"russian" : {
 		"name" : "Анатомия",
-		"description" : "Этот навык позволяет всем юнитам в вашей армии находить слабые места у вражеских существ, давая им 5%/10%/15% шанс нанести двойной урон. Вероятность случайного изучения навыков минимальна (1). Кроме того, добавлены новые герои: Тересса (Некрополь) и Гвидион (Башня), специализирующиеся на навыке Анатомия"
-	}		
-	 	
+		"description" : "Позволяет отрядам находить слабые места противников:<br>•&nbsp;Шанс нанести двойной урон: <b>5% / 10% / 15%</b> в зависимости от уровня навыка<br>•&nbsp;Случайное изучение этого навыка крайне маловероятно<br><br>•&nbsp;Добавляет новых героев со специализацией в Анатомии:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Тересса</b> для Некрополя<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Гвидион</b> для Башни"
+	}
 }

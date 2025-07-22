@@ -39,7 +39,6 @@
                 "power": 1,
                 "range": "X",
                 "cost": 0,
-                "aiValue": 10,
                 "targetModifier": {
                     "smart": true
                 },

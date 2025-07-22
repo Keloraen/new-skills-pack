@@ -1,10 +1,11 @@
 {
-	"fbfury": {
+	"fury": {
 		"name": "Fury",
 		"gainChance": {
 			"might": 1,
 			"magic": 1
 		},
+		"specialty": [ "main" ],
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -15,9 +16,10 @@
 		},
 		"basic": {
 			"images": {
-				"small": "skills/fbfury/bsmall",
-				"medium": "skills/fbfury/bmedium",
-				"large": "skills/fbfury/blarge"
+				"small": "skills/fury/bsmall",
+				"medium": "skills/fury/bmedium",
+				"large": "skills/fury/blarge",
+				"scenarioBonus": "skills/fury/bsmall"
 			},
 			"description": "{Basic Fury}\n\nBattle Fury increases the number of enemies killed by your units by 5%.",
 			"effects" : {
@@ -26,9 +28,10 @@
 		},
 		"advanced": {
 			"images": {
-				"small": "skills/fbfury/asmall",
-				"medium": "skills/fbfury/amedium",
-				"large": "skills/fbfury/alarge"
+				"small": "skills/fury/asmall",
+				"medium": "skills/fury/amedium",
+				"large": "skills/fury/alarge",
+				"scenarioBonus": "skills/fury/asmall"
 			},
 			"description": "{Advanced Fury}\n\nBattle Fury increases the number of enemies killed by your units by 10%.",
 			"effects" : {
@@ -37,9 +40,10 @@
 		},
 		"expert": {
 			"images": {
-				"small": "skills/fbfury/esmall",
-				"medium": "skills/fbfury/emedium",
-				"large": "skills/fbfury/elarge"
+				"small": "skills/fury/esmall",
+				"medium": "skills/fury/emedium",
+				"large": "skills/fury/elarge",
+				"scenarioBonus": "skills/fury/esmall"
 			},
 			"description": "{Expert Fury}\n\nBattle Fury increases the number of enemies killed by your units by 15%.",
 			"effects" : {
