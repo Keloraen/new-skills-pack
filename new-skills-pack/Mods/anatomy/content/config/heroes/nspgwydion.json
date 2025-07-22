@@ -4,8 +4,8 @@
         "female": false,
 		"spellbook": [ "cure" ],
         "images": {
-            "specialtySmall": "spec/anatomys.png",
-            "specialtyLarge": "spec/anatomyl.png",
+			"specialtySmall": "skills/anatomy/bsmall",
+			"specialtyLarge": "skills/anatomy/bmedium",
             "large": "heroes/nspgwydion/pbig",
             "small": "heroes/nspgwydion/psmall"
         },

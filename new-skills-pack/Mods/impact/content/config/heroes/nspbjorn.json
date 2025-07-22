@@ -18,10 +18,10 @@
 		},
     "images" :
     {
-      "specialtySmall" : "spec/impacts.png",
-      "specialtyLarge" : "spec/impactl.png",
-      "small" : "heroes/nspbjorn/nspbjorns.png",
-      "large" : "heroes/nspbjorn/nspbjornl.png"
+		"specialtySmall": "skills/impact/bsmall",
+		"specialtyLarge": "skills/impact/bmedium",
+		"small" : "heroes/nspbjorn/nspbjorns.png",
+		"large" : "heroes/nspbjorn/nspbjornl.png"
     },
     "army" :
     [

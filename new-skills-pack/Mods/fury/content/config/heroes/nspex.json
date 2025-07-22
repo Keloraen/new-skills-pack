@@ -6,10 +6,10 @@
 		"special": false,
 		"images" :
 		{
+			"specialtySmall": "skills/fury/bsmall",
+			"specialtyLarge": "skills/fury/bmedium",
 			"large" : "heroes/nspex/nspexl.png",
-			"small" : "heroes/nspex/nspexs.png",
-			"specialtyLarge" : "spec/furyl.png",
-			"specialtySmall" : "spec/furys.png"
+			"small" : "heroes/nspex/nspexs.png"
 		},
 		"army" : [
 			{

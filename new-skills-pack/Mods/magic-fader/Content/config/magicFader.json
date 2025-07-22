@@ -20,7 +20,7 @@
 				"small" : "skills/magicFaderSmallBasic",
 				"medium" : "skills/magicFaderMediumBasic",
 				"large" : "skills/magicFaderLargeBasic",
-				"scenarioBonus" : "skills/magicFaderSmallBasic"
+				"scenarioBonus" : "skills/magicFaderBonusBasic"
 			},
 			"description" : "{Basic Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 5 spells during combat.",
 			"effects" : {
@@ -34,7 +34,7 @@
 				"small" : "skills/magicFaderSmallAdvanced",
 				"medium" : "skills/magicFaderMediumAdvanced",
 				"large" : "skills/magicFaderLargeAdvanced",
-				"scenarioBonus" : "skills/magicFaderSmallAdvanced"
+				"scenarioBonus" : "skills/magicFaderBonusAdvanced"
 			},
 			"description" : "{Advanced Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 4 and 5 spells during combat.",
 			"effects" : {
@@ -48,7 +48,7 @@
 				"small" : "skills/magicFaderSmallExpert",
 				"medium" : "skills/magicFaderMediumExpert",
 				"large" : "skills/magicFaderLargeExpert",
-				"scenarioBonus" : "skills/magicFaderSmallExpert"
+				"scenarioBonus" : "skills/magicFaderBonusExpert"
 			},
 			"description" : "{Expert Magic Fader}\n\nA magical suppression field envelops the battlefield, preventing enemy heroes from casting level 3, 4 and 5 spells during combat.",
 			"effects" : {

@@ -3,8 +3,8 @@
         "class": "barbarian",
         "female": false,
         "images": {
-            "specialtySmall": "spec/impacts.png",
-            "specialtyLarge": "spec/impactl.png",
+			"specialtySmall": "skills/impact/bsmall",
+			"specialtyLarge": "skills/impact/bmedium",
             "large": "heroes/nsptharag/tharagl",
             "small": "heroes/nsptharag/tharags"
         },

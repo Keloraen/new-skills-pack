@@ -3,10 +3,10 @@
         "class": "warlock",
         "female": false,
         "images": {
-	"specialtyLarge" : "spec/furyl.png",
-	"specialtySmall" : "spec/furys.png",
-        "large": "heroes/nspaldarion/nspaldarionl",
-        "small": "heroes/nspaldarion/nspaldarions"
+			"specialtySmall": "skills/fury/bsmall",
+			"specialtyLarge": "skills/fury/bmedium",
+			"large": "heroes/nspaldarion/nspaldarionl",
+			"small": "heroes/nspaldarion/nspaldarions"
         },
         "army": [
       {

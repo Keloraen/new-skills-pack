@@ -12,8 +12,8 @@
             }
         },
         "images": {
-            "specialtySmall": "spec/nimblenesss.png",
-            "specialtyLarge": "spec/nimblenessl.png",
+			"specialtySmall": "skills/nimbleness/bnimblenesssmall",
+			"specialtyLarge":"skills/nimbleness/bnimblenessmedium",
             "large": "heroes/nspnewt/nspnewtl",
             "small": "heroes/nspnewt/nspnewts"
         },
