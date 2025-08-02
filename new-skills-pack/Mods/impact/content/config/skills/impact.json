@@ -1,11 +1,13 @@
 {
-	"impact": {
-		"name": "Impact",
-		"gainChance": {
-			"might": 1,
-			"magic": 1
+	"impact" : {
+		"name" : "Impact",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
 		},
-		"specialty": [ "main" ],
+		"specialty" : [
+			"main"
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -13,40 +15,46 @@
 				}
 			}
 		},
-		"basic": {
-			"images": {
-				"small": "skills/impact/bsmall",
-				"medium": "skills/impact/bmedium",
-				"large": "skills/impact/blarge",
-				"scenarioBonus": "skills/impact/blargebonus"
+		"basic" : {
+			"images" : {
+				"small" : "skills/impact/bsmall",
+				"medium" : "skills/impact/bmedium",
+				"large" : "skills/impact/blarge",
+				"scenarioBonus" : "skills/impact/blargebonus"
 			},
-			"description": "{Basic Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%.",
+			"description" : "{Basic Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 5%.",
 			"effects" : {
-				"main" : { "val" : 5}
+				"main" : {
+					"val" : 5
+				}
 			}
 		},
-		"advanced": {
-			"images": {
-				"small": "skills/impact/asmall",
-				"medium": "skills/impact/amedium",
-				"large": "skills/impact/alarge",
-				"scenarioBonus": "skills/impact/alargebonus"
+		"advanced" : {
+			"images" : {
+				"small" : "skills/impact/asmall",
+				"medium" : "skills/impact/amedium",
+				"large" : "skills/impact/alarge",
+				"scenarioBonus" : "skills/impact/alargebonus"
 			},
-			"description": "{Advanced Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 10%.",
+			"description" : "{Advanced Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 10%.",
 			"effects" : {
-				"main" : { "val" : 10}
+				"main" : {
+					"val" : 10
+				}
 			}
 		},
-		"expert": {
-			"images": {
-				"small": "skills/impact/esmall",
-				"medium": "skills/impact/emedium",
-				"large": "skills/impact/elarge",
-				"scenarioBonus": "skills/impact/elargebonus"
+		"expert" : {
+			"images" : {
+				"small" : "skills/impact/esmall",
+				"medium" : "skills/impact/emedium",
+				"large" : "skills/impact/elarge",
+				"scenarioBonus" : "skills/impact/elargebonus"
 			},
-			"description": "{Expert Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 15%.",
+			"description" : "{Expert Impact}\n\nThe unprecedented speed and power of your units' strikes lowers the enemy's defense by 15%.",
 			"effects" : {
-				"main" : { "val" : 15}
+				"main" : {
+					"val" : 15
+				}
 			}
 		}
 	}

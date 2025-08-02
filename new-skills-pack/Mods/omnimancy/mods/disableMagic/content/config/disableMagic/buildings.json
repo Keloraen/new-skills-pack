@@ -3,7 +3,12 @@
 		"town" : {
 			"buildings" : {
 				"special2" : {
-					"marketOffer" : [ "learning", "intelligence", "sorcery", "scholar" ]
+					"marketOffer" : [
+						"learning",
+						"intelligence",
+						"sorcery",
+						"scholar"
+					]
 				}
 			}
 		}

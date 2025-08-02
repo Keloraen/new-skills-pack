@@ -1,72 +1,65 @@
 {
-  "nspbjorn" :
-  {
-    "class" : "knight",
-    "female" : false,
-    "special" : false,
+	"nspbjorn" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
 
-    "texts" :
-    {
-      "name" : "Bjorn",
-      "biography" : "Long ago, Bjorn was an armorer in Dunwall. Before he became skilled in his craft, he often ruined armor rather than strengthening it. However, he learned from his mistakes. Now, he knows how to damage enemy armor, and he willingly shares this knowledge with his men.",
-     "specialty" :
-			{
+		"texts" : {
+			"name" : "Bjorn",
+			"biography" : "Long ago, Bjorn was an armorer in Dunwall. Before he became skilled in his craft, he often ruined armor rather than strengthening it. However, he learned from his mistakes. Now, he knows how to damage enemy armor, and he willingly shares this knowledge with his men.",
+			"specialty" : {
 				"description" : "Increase Impact skill by 1% per 2 hero levels.",
 				"tooltip" : "Secondary skill bonus: Impact",
 				"name" : "Impact"
 			}
 		},
-    "images" :
-    {
-		"specialtySmall": "skills/impact/bsmall",
-		"specialtyLarge": "skills/impact/bmedium",
-		"small" : "heroes/nspbjorn/nspbjorns.png",
-		"large" : "heroes/nspbjorn/nspbjornl.png"
-    },
-    "army" :
-    [
-      {
-        "creature" : "pikeman",
-        "max" : 20,
-        "min" : 10
-      },
-      {
-        "creature" : "archer",
-        "max" : 7,
-        "min" : 4
-      },
-      {
-        "creature" : "swordsman",
-        "max" : 4,
-        "min" : 2
-      }
-    ],
-    "skills" :
-    [
-      {
-        "level" : "basic",
-        "skill" : "armorer"
-      },
-	  {
-        "level" : "basic",
-        "skill" : "impact"
-      }
-    ],
-        "specialty": 
-		{
+		"images" : {
+			"specialtySmall" : "skills/impact/bsmall",
+			"specialtyLarge" : "skills/impact/bmedium",
+			"small" : "heroes/nspbjorn/nspbjorns.png",
+			"large" : "heroes/nspbjorn/nspbjornl.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "archer",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "swordsman",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "impact"
+			}
+		],
+		"specialty" : {
 			"bonuses" : {
 				"impact" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION",
-                                        "targetSourceType" : "SECONDARY_SKILL",
+					"targetSourceType" : "SECONDARY_SKILL",
 					"val" : 0,
 					"valueType" : "ADDITIVE_VALUE",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 2
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 2
 					}
 				}
 			}
-		}		
+		}
 	}
 }

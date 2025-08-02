@@ -1,29 +1,28 @@
 {
-	"name": "Fury",
-	"description": "Battle Fury increases the number of enemies killed by your units:<br>•&nbsp;Increase: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Fury:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> for Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> for Dungeon",
-	"author": "FallainBlack",
+	"name" : "Fury",
+	"description" : "Battle Fury increases the number of enemies killed by your units:<br>•&nbsp;Increase: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Fury:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> for Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> for Dungeon",
+	"author" : "FallainBlack",
 	"version" : "1.0.0",
-    "modType" : "Skills",
+	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
-	"changelog" :
-	{
-        "1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
-	"skills" :
-	[
-        "config/skills/fury.json"
+	"skills" : [
+		"config/skills/fury.json"
 	],
-	
-	"heroes" :
-	[
-        "config/heroes/nspex.json",
-        "config/heroes/nspaldarion.json"
+
+	"heroes" : [
+		"config/heroes/nspex.json",
+		"config/heroes/nspaldarion.json"
 	],
 	"czech" : {
 		"name" : "Zuřivost",
 		"description" : "Bitevní zuřivost zvyšuje počet nepřátel zabitých tvými jednotkami:<br>•&nbsp;Navýšení: <b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na zuřivost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> pro Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> pro Kobku"
-	},	
+	},
 	"polish" : {
 		"name" : "Furia",
 		"description" : "Furia bitewna zwiększa liczbę wrogów zabitych przez twoje jednostki:<br>•&nbsp;Zwiększenie: <b>5% / 10% / 15%</b> w zależności od poziomu umiejętności<br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie<br><br>•&nbsp;Dodaje nowych bohaterów ze specjalizacją w Furii:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> dla Inferna<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> dla Lochów"
