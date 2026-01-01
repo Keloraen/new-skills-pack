@@ -1,63 +1,63 @@
 {
-    "nspnewt": {
-        "class": "beastmaster",
-        "female": true,
-        "texts": {
-            "name": "Newt",
-            "biography": "Newt hatched as very small lizardwoman.She quickly learned to awoid the blows of the stronger lizardmen who despised her. Newt is good at avoiding enemy hits, and her good eyesight makes her an excellent scout.",
-            "specialty": {
-                "description": "Increase Nimbleness by 1% per 2 Heroe levels",
-                "name": "Nimbleness",
-                "tooltip": "Secondary skill bonus: Nimbleness"
-            }
-        },
-        "images": {
-			"specialtySmall": "skills/nimbleness/bnimblenesssmall",
-			"specialtyLarge":"skills/nimbleness/bnimblenessmedium",
-            "large": "heroes/nspnewt/nspnewtl",
-            "small": "heroes/nspnewt/nspnewts"
-        },
-        "army": [
-            {
-                "creature": "gnoll",
-                "max": 25,
-                "min": 15
-            },
-            {
-                "creature": "lizardman",
-                "max": 7,
-                "min": 4
-            },
-            {
-                "creature": "serpentFly",
-                "max": 4,
-                "min": 3
-            }
-        ],
-        "skills": [
+	"nspnewt" : {
+		"class" : "beastmaster",
+		"female" : true,
+		"texts" : {
+			"name" : "Newt",
+			"biography" : "Newt hatched as very small lizardwoman.She quickly learned to awoid the blows of the stronger lizardmen who despised her. Newt is good at avoiding enemy hits, and her good eyesight makes her an excellent scout.",
+			"specialty" : {
+				"description" : "Increase Nimbleness by 1% per 2 Heroe levels",
+				"name" : "Nimbleness",
+				"tooltip" : "Secondary skill bonus: Nimbleness"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "skills/nimbleness/bnimblenesssmall",
+			"specialtyLarge" : "skills/nimbleness/bnimblenessmedium",
+			"large" : "heroes/nspnewt/nspnewtl",
+			"small" : "heroes/nspnewt/nspnewts"
+		},
+		"army" : [
 			{
-				"level": "basic",
-				"skill": "nimbleness"
+				"creature" : "gnoll",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"level": "basic",
-				"skill": "scouting"
+				"creature" : "lizardman",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "serpentFly",
+				"max" : 4,
+				"min" : 3
 			}
-        ],
-        "specialty": {
-            "bonuses": {
-                "nimbleness": {
-                    "type": "ENEMY_ATTACK_REDUCTION",
-                    "targetSourceType": "SECONDARY_SKILL",
-                    "val": 0,
-                    "valueType": "ADDITIVE_VALUE",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 2
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "nimbleness"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"nimbleness" : {
+					"type" : "ENEMY_ATTACK_REDUCTION",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 2
 					}
-                }
-            }
-        }
-    }
+				}
+			}
+		}
+	}
 }

@@ -1,5 +1,5 @@
 {
-	"nspellaria": {
+	"nspellaria" : {
 		"army" : [
 			{
 				"creature" : "dwarf",
@@ -18,48 +18,46 @@
 			}
 		],
 
-		"female": true,
-		"class": "ranger",
-    "images" :
-    {
-		"specialtySmall": "skills/nimbleness/bnimblenesssmall",
-		"specialtyLarge":"skills/nimbleness/bnimblenessmedium",
-		"small" : "heroes/nspellaria/nspellarias",
-		"large" : "heroes/nspellaria/nspellarial"
-    },
-		"skills": [
+		"female" : true,
+		"class" : "ranger",
+		"images" : {
+			"specialtySmall" : "skills/nimbleness/bnimblenesssmall",
+			"specialtyLarge" : "skills/nimbleness/bnimblenessmedium",
+			"small" : "heroes/nspellaria/nspellarias",
+			"large" : "heroes/nspellaria/nspellarial"
+		},
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "nimbleness"
+				"level" : "basic",
+				"skill" : "nimbleness"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
-  "specialty": 
-		{
+		"specialty" : {
 			"bonuses" : {
 				"nimbleness" : {
 					"type" : "ENEMY_ATTACK_REDUCTION",
-                    "targetSourceType" : "SECONDARY_SKILL",
+					"targetSourceType" : "SECONDARY_SKILL",
 					"val" : 0,
 					"valueType" : "ADDITIVE_VALUE",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 2
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 2
 					}
 				}
 			}
 		},
-		"texts": {
-			"biography": "Ellaria was a member of an elite group of AvLee border guards called the War Dancers. After the invasion of Kreegen, she is the last of them. To this day, Ellaria guards AvLee's borders and makes guerrilla attacks on the enemies of her home.",
-			"name": "Ellaria",
-			"specialty": {
-				"description": "Increase Nimbleness by 1% per 2 Heroe levels",
-				"name": "Nimbleness",
-				"tooltip": "Secondary skill bonus: Nimbleness"
+		"texts" : {
+			"biography" : "Ellaria was a member of an elite group of AvLee border guards called the War Dancers. After the invasion of Kreegen, she is the last of them. To this day, Ellaria guards AvLee's borders and makes guerrilla attacks on the enemies of her home.",
+			"name" : "Ellaria",
+			"specialty" : {
+				"description" : "Increase Nimbleness by 1% per 2 Heroe levels",
+				"name" : "Nimbleness",
+				"tooltip" : "Secondary skill bonus: Nimbleness"
 			}
 		}
 	}

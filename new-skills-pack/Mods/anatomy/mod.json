@@ -1,24 +1,23 @@
 {
-	"name": "Anatomy",
-	"description": "Allows your units to detect weak spots in enemies:<br>•&nbsp;Chance to deal double damage: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Anatomy:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Teressa</b> for Necropolis<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Gwydion</b> for Tower",
-	"author": "FallainBlack",
+	"name" : "Anatomy",
+	"description" : "Allows your units to detect weak spots in enemies:<br>•&nbsp;Chance to deal double damage: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Anatomy:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Teressa</b> for Necropolis<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Gwydion</b> for Tower",
+	"author" : "FallainBlack",
 	"version" : "1.0.0",
-    "modType" : "Skills",
+	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
-	"changelog" :
-	{
-        "1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
-    "skills" :
-	[
+	"skills" : [
 		"config/skills/anatomy.json"
 	],
-	
-    "heroes" :
-	[
-        "config/heroes/nspteressa.json",
-        "config/heroes/nspgwydion.json"
+
+	"heroes" : [
+		"config/heroes/nspteressa.json",
+		"config/heroes/nspgwydion.json"
 	],
 
 	"czech" : {

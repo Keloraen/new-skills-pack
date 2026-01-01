@@ -1,11 +1,13 @@
 {
-	"anatomy": {
-		"name": "Anatomy",
-		"gainChance": {
-			"might": 1,
-			"magic": 1
+	"anatomy" : {
+		"name" : "Anatomy",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
 		},
-		"specialty": [ "main" ],
+		"specialty" : [
+			"main"
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -13,40 +15,46 @@
 				}
 			}
 		},
-		"basic": {
-			"images": {
-				"small": "skills/anatomy/bsmall",
-				"medium": "skills/anatomy/bmedium",
-				"large": "skills/anatomy/blarge",
-				"scenarioBonus": "skills/anatomy/blargebonus"
+		"basic" : {
+			"images" : {
+				"small" : "skills/anatomy/bsmall",
+				"medium" : "skills/anatomy/bmedium",
+				"large" : "skills/anatomy/blarge",
+				"scenarioBonus" : "skills/anatomy/blargebonus"
 			},
-			"description": "{Basic Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 5% chance to deal double damage.",
+			"description" : "{Basic Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 5% chance to deal double damage.",
 			"effects" : {
-				"main" : { "val" : 5}
+				"main" : {
+					"val" : 5
+				}
 			}
 		},
-		"advanced": {
-			"images": {
-				"small": "skills/anatomy/asmall",
-				"medium": "skills/anatomy/amedium",
-				"large": "skills/anatomy/alarge",
-				"scenarioBonus": "skills/anatomy/alargebonus"
+		"advanced" : {
+			"images" : {
+				"small" : "skills/anatomy/asmall",
+				"medium" : "skills/anatomy/amedium",
+				"large" : "skills/anatomy/alarge",
+				"scenarioBonus" : "skills/anatomy/alargebonus"
 			},
-			"description": "{Advanced Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 10% chance to deal double damage.",
+			"description" : "{Advanced Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 10% chance to deal double damage.",
 			"effects" : {
-				"main" : { "val" : 10}
+				"main" : {
+					"val" : 10
+				}
 			}
 		},
-		"expert": {
-			"images": {
-				"small": "skills/anatomy/esmall",
-				"medium": "skills/anatomy/emedium",
-				"large": "skills/anatomy/elarge",
-				"scenarioBonus": "skills/anatomy/elargebonus"
+		"expert" : {
+			"images" : {
+				"small" : "skills/anatomy/esmall",
+				"medium" : "skills/anatomy/emedium",
+				"large" : "skills/anatomy/elarge",
+				"scenarioBonus" : "skills/anatomy/elargebonus"
 			},
-			"description": "{Expert Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 15% chance to deal double damage.",
+			"description" : "{Expert Anatomy}\n\nAllows all units in your army to find weak points on enemy creatures, giving them a 15% chance to deal double damage.",
 			"effects" : {
-				"main" : { "val" : 15}
+				"main" : {
+					"val" : 15
+				}
 			}
 		}
 	}
