@@ -1,22 +1,21 @@
 {
-	"name": "Impact",
-	"description": "The incredible speed and strength of your units' attacks reduces enemy defense:<br>•&nbsp;Reduction: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Impact:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> for Castle<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> for Stronghold",
-	"author": "FallainBlack",
+	"name" : "Impact",
+	"description" : "The incredible speed and strength of your units' attacks reduces enemy defense:<br>•&nbsp;Reduction: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Impact:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> for Castle<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> for Stronghold",
+	"author" : "FallainBlack",
 	"version" : "1.0.0",
-    "modType" : "Skills",
+	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
-	"changelog" :
-	{
-        "1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
-	"skills" :
-	[
+	"skills" : [
 		"config/skills/impact.json"
 	],
-	
-    "heroes" :
-	[
+
+	"heroes" : [
 		"config/heroes/nspbjorn.json",
 		"config/heroes/nsptharag.json"
 	],

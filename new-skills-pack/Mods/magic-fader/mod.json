@@ -1,35 +1,42 @@
 {
-	"name": "Magic Fader",
-	"description": "Blocks selected spells from being cast by the enemy hero during battle:<br>•&nbsp;Skill level determines which spells are blocked:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Basic</b>: blocks <b>level 5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Advanced</b>: blocks <b>level 4–5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Expert</b>: blocks <b>level 3–5</b> spells<br><br>•&nbsp;Random learning of this skill is extremely rare",
+	"name" : "Magic Fader",
+	"description" : "Blocks selected spells from being cast by the enemy hero during battle:<br>•&nbsp;Skill level determines which spells are blocked:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Basic</b>: blocks <b>level 5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Advanced</b>: blocks <b>level 4–5</b> spells<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Expert</b>: blocks <b>level 3–5</b> spells<br><br>•&nbsp;Random learning of this skill is extremely rare",
 	"version" : "2.0.0",
 	"author" : "avatar. Graphic: HotA Team (rejected material).",
 	"contact" : "",
 	"modType" : "Skills",
-	"compatibility":
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
-	},	
-	"changelog" :
-    {
-        "2.0.0" : [ "Magic fader reworked. Added sound, animation (from Ben Yan)" ],
-        "1.0.3" : [ "Added russian translation by Keloraen", "Added polish translation by FallainBlack" ],
-        "1.0.2" : [ "Czech translation by George King" ],
-		"1.0.1" : [ "Added Chinese translation" ],
-		"1.0.0" : [ "Initial release" ]
-    },
-	
-	"skills" : 
-	[
+	},
+	"changelog" : {
+		"2.0.0" : [
+			"Magic fader reworked. Added sound, animation (from Ben Yan)"
+		],
+		"1.0.3" : [
+			"Added russian translation by Keloraen",
+			"Added polish translation by FallainBlack"
+		],
+		"1.0.2" : [
+			"Czech translation by George King"
+		],
+		"1.0.1" : [
+			"Added Chinese translation"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"skills" : [
 		"config/magicFader.json"
 	],
-	
-	"spells" : 
-	[
+
+	"spells" : [
 		"config/blockBas.json",
 		"config/blockAdv.json",
 		"config/blockExp.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "法术抑制",
 		"description" : "在战斗中阻止敌方英雄施放特定法术：<br>•&nbsp;技能等级决定哪些法术会被阻止：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>基础</b>：阻止<b>5级</b>法术<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>进阶</b>：阻止<b>4–5级</b>法术<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>专家</b>：阻止<b>3–5级</b>法术<br><br>•&nbsp;随机学习此技能的几率极低"

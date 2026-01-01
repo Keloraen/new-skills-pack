@@ -1,11 +1,13 @@
 {
-	"nimbleness": {
-		"name": "Nimbleness",
-		"gainChance": {
-			"might": 1,
-			"magic": 1
+	"nimbleness" : {
+		"name" : "Nimbleness",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
 		},
-		"specialty": [ "main" ],
+		"specialty" : [
+			"main"
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -13,40 +15,46 @@
 				}
 			}
 		},
-		"basic": {
-			"images": {
-				"small": "skills/nimbleness/bnimblenesssmall",
-				"medium":"skills/nimbleness/bnimblenessmedium",
-				"large": "skills/nimbleness/bnimblenesslarge",
-				"scenarioBonus": "skills/nimbleness/bnimblenessbonus"
+		"basic" : {
+			"images" : {
+				"small" : "skills/nimbleness/bnimblenesssmall",
+				"medium" : "skills/nimbleness/bnimblenessmedium",
+				"large" : "skills/nimbleness/bnimblenesslarge",
+				"scenarioBonus" : "skills/nimbleness/bnimblenessbonus"
 			},
-			"description": "{Basic Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%.",
+			"description" : "{Basic Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 5%.",
 			"effects" : {
-				"main" : { "val" : 5}
+				"main" : {
+					"val" : 5
+				}
 			}
 		},
-		"advanced": {
-			"images": {
-				"small": "skills/nimbleness/animblenesssmall",
-				"medium": "skills/nimbleness/animblenessmedium",
-				"large": "skills/nimbleness/animblenesslarge",
-				"scenarioBonus": "skills/nimbleness/animblenessbonus"
+		"advanced" : {
+			"images" : {
+				"small" : "skills/nimbleness/animblenesssmall",
+				"medium" : "skills/nimbleness/animblenessmedium",
+				"large" : "skills/nimbleness/animblenesslarge",
+				"scenarioBonus" : "skills/nimbleness/animblenessbonus"
 			},
-			"description": "{Advanced Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 10%.",
+			"description" : "{Advanced Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 10%.",
 			"effects" : {
-				"main" : { "val" : 10}
+				"main" : {
+					"val" : 10
+				}
 			}
 		},
-		"expert": {
-			"images": {
-				"small": "skills/nimbleness/enimblenesssmall",
-				"medium": "skills/nimbleness/enimblenessmedium",
-				"large": "skills/nimbleness/enimblenesslarge",
-				"scenarioBonus": "skills/nimbleness/enimblenessbonus"
+		"expert" : {
+			"images" : {
+				"small" : "skills/nimbleness/enimblenesssmall",
+				"medium" : "skills/nimbleness/enimblenessmedium",
+				"large" : "skills/nimbleness/enimblenesslarge",
+				"scenarioBonus" : "skills/nimbleness/enimblenessbonus"
 			},
-			"description": "{Expert Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 15%.",
+			"description" : "{Expert Nimbleness}\n\nNimbleness allows your unit to Partially avoid an enemy attack, reducing his attack by 15%.",
 			"effects" : {
-				"main" : { "val" : 15}
+				"main" : {
+					"val" : 15
+				}
 			}
 		}
 	}

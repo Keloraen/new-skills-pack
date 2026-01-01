@@ -1,22 +1,21 @@
 {
-	"name": "Nimbleness",
-	"description": "Allows your units to partially avoid enemy attacks, reducing their attack:<br>•&nbsp;Reduction: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Nimbleness:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ellaria</b> for Rampart<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Newt</b> for Fortress",
-	"author": "FallainBlack",
+	"name" : "Nimbleness",
+	"description" : "Allows your units to partially avoid enemy attacks, reducing their attack:<br>•&nbsp;Reduction: <b>5% / 10% / 15%</b> based on skill level<br>•&nbsp;Random learning of this skill is extremely rare<br><br>•&nbsp;Adds new heroes specializing in Nimbleness:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ellaria</b> for Rampart<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Newt</b> for Fortress",
+	"author" : "FallainBlack",
 	"version" : "1.0.0",
-    "modType" : "Skills",
+	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
-	"changelog" :
-	{
-        "1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 
-	"skills" :
-	[
+	"skills" : [
 		"config/skills/nimbleness.json"
 	],
-	
-    "heroes" :
-	[
+
+	"heroes" : [
 		"config/heroes/nspellaria.json",
 		"config/heroes/nspnewt.json"
 	],
@@ -28,7 +27,7 @@
 	"czech" : {
 		"name" : "Obratnost",
 		"description" : "Umožňuje jednotkám částečně se vyhnout nepřátelským útokům, čímž snižují jeho útok o:<br>•&nbsp;<b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na obratnost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ellaria</b> pro Baštu<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Newt</b> pro Pevnost"
-	},	
+	},
 	"polish" : {
 		"name" : "Zwinność",
 		"description" : "Pozwala jednostkom częściowo unikać ataków wroga, zmniejszając jego atak:<br>•&nbsp;Zmniejszenie ataku: <b>5% / 10% / 15%</b> w zależności od poziomu umiejętności<br>•&nbsp;Losowe nauczenie się tej umiejętności jest bardzo rzadkie<br><br>•&nbsp;Dodaje nowych bohaterów ze specjalizacją w Zwinności:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ellaria</b> dla Bastionu<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Newt</b> dla Twierdzy"

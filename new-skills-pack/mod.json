@@ -1,20 +1,36 @@
 {
 	"name" : "New Skills Pack",
 	"description" : "Adds 5 new secondary skills:<br>•&nbsp;<b>Anatomy</b> – chance to deal double damage<br>•&nbsp;<b>Fury</b> – increases number of enemies slain<br>•&nbsp;<b>Impact</b> – reduces enemy defense<br>•&nbsp;<b>Magic Fader</b> – blocks high-level spellcasting<br>•&nbsp;<b>Nimbleness</b> – lowers enemy attack through dodging<br><br>Each skill features unique animations, effects, and specialized heroes.",
-	"author": "FallainBlack (Fury, Anatomy, Impact, Nimbleness), avatar (Magic fader)",
+	"author" : "FallainBlack (Fury, Anatomy, Impact, Nimbleness), avatar (Magic fader)",
 	"version" : "1.0.7",
-    "modType" : "Skills",
+	"modType" : "Skills",
 	"contact" : "https://discord.gg/PDXDf8P8",
-	"changelog" :
-	{
-		"1.0.7" : [ "Added Czech translation by George King", "Improved all descriptions" ],
-		"1.0.6" : [ "Added russian translation" ],
-		"1.0.5" : [ "Fixed console warnings" ],
-		"1.0.4" : [ "magic fader update" ],
-		"1.0.3" : [ "magic fader fix" ],
-		"1.0.2" : [ "bug fix, new content, translation fix" ],
-		"1.0.1" : [ "Change of file structure, minor fix, Polish translation added" ],
-		"1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.7" : [
+			"Added Czech translation by George King",
+			"Improved all descriptions"
+		],
+		"1.0.6" : [
+			"Added russian translation"
+		],
+		"1.0.5" : [
+			"Fixed console warnings"
+		],
+		"1.0.4" : [
+			"magic fader update"
+		],
+		"1.0.3" : [
+			"magic fader fix"
+		],
+		"1.0.2" : [
+			"bug fix, new content, translation fix"
+		],
+		"1.0.1" : [
+			"Change of file structure, minor fix, Polish translation added"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 	"chinese" : {
 		"name" : "新技能包",
@@ -30,7 +46,7 @@
 			"translation/czech.json"
 		]
 	},
-		
+
 	"polish" : {
 		"name" : "Paczka nowych umiejętności",
 		"description" : "Dodaje 5 nowych umiejętności dodatkowych:<br>•&nbsp;<b>Anatomia</b> – szansa na podwojone obrażenia<br>•&nbsp;<b>Furia</b> – więcej zabitych wrogów<br>•&nbsp;<b>Uderzenie</b> – obniża obronę przeciwnika<br>•&nbsp;<b>Tłumienie magii</b> – blokuje rzucanie potężnych zaklęć<br>•&nbsp;<b>Zwinność</b> – zmniejsza atak wroga dzięki unikom<br><br>Każda umiejętność ma własną animację, efekty i dedykowanych bohaterów.",

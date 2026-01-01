@@ -1,64 +1,66 @@
 {
-    "nspgwydion": {
-        "class": "wizard",
-        "female": false,
-		"spellbook": [ "cure" ],
-        "images": {
-			"specialtySmall": "skills/anatomy/bsmall",
-			"specialtyLarge": "skills/anatomy/bmedium",
-            "large": "heroes/nspgwydion/pbig",
-            "small": "heroes/nspgwydion/psmall"
-        },
-        "texts": {
-            "name": "Gwydion",
-            "biography": "When Gwydion was young, he was a real carouser and debauchee. He probably visited all the brothels in Brakada, which caused him to suffer from troublesome diseases more than once. This greatly influenced the development of his career. Today, Gwydion is the most respected medical specialist in all of Bracada.",
-            "specialty": {
-                "description": "Increase Anatomy skill by 1% per 2 hero levels.",
-                "tooltip": "Secondary Skill Bonus: Anatomy",
-                "name": "Anatomy"
-            }
-        },
-        "army": [
-            {
-                "creature": "gremlin",
-                "max": 40,
-                "min": 30
-            },
-            {
-                "creature": "stoneGargoyle",
-                "max": 7,
-                "min": 5
-            },
-            {
-                "creature": "firstAidTent",
-                "max": 1,
-                "min": 1
-            }
-        ],
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "anatomy"
-            },
-            {
-                "level": "basic",
-                "skill": "firstAid"
-            }
-        ],
-        "specialty": {
-            "bonuses": {
-                "anatomy": {
-                    "type": "DOUBLE_DAMAGE_CHANCE",
-                    "targetSourceType": "SECONDARY_SKILL",
-                    "val": 0,
-                    "valueType": "ADDITIVE_VALUE",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 2
+	"nspgwydion" : {
+		"class" : "wizard",
+		"female" : false,
+		"spellbook" : [
+			"cure"
+		],
+		"images" : {
+			"specialtySmall" : "skills/anatomy/bsmall",
+			"specialtyLarge" : "skills/anatomy/bmedium",
+			"large" : "heroes/nspgwydion/pbig",
+			"small" : "heroes/nspgwydion/psmall"
+		},
+		"texts" : {
+			"name" : "Gwydion",
+			"biography" : "When Gwydion was young, he was a real carouser and debauchee. He probably visited all the brothels in Brakada, which caused him to suffer from troublesome diseases more than once. This greatly influenced the development of his career. Today, Gwydion is the most respected medical specialist in all of Bracada.",
+			"specialty" : {
+				"description" : "Increase Anatomy skill by 1% per 2 hero levels.",
+				"tooltip" : "Secondary Skill Bonus: Anatomy",
+				"name" : "Anatomy"
+			}
+		},
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"max" : 40,
+				"min" : 30
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "anatomy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"anatomy" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 2
 					}
-                }
-            }
-        }
-    }
+				}
+			}
+		}
+	}
 }

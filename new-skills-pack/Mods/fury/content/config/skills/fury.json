@@ -1,53 +1,61 @@
 {
-	"fury": {
-		"name": "Fury",
-		"gainChance": {
-			"might": 1,
-			"magic": 1
+	"fury" : {
+		"name" : "Fury",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
 		},
-		"specialty": [ "main" ],
+		"specialty" : [
+			"main"
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
 					"type" : "DESTRUCTION",
-                                        "subtype" : "destructionKillPercentage"
+					"subtype" : "destructionKillPercentage"
 				}
 			}
 		},
-		"basic": {
-			"images": {
-				"small": "skills/fury/bsmall",
-				"medium": "skills/fury/bmedium",
-				"large": "skills/fury/blarge",
-				"scenarioBonus": "skills/fury/blargebonus"
+		"basic" : {
+			"images" : {
+				"small" : "skills/fury/bsmall",
+				"medium" : "skills/fury/bmedium",
+				"large" : "skills/fury/blarge",
+				"scenarioBonus" : "skills/fury/blargebonus"
 			},
-			"description": "{Basic Fury}\n\nBattle Fury increases the number of enemies killed by your units by 5%.",
+			"description" : "{Basic Fury}\n\nBattle Fury increases the number of enemies killed by your units by 5%.",
 			"effects" : {
-				"main" : { "val" : 5}
+				"main" : {
+					"val" : 5
+				}
 			}
 		},
-		"advanced": {
-			"images": {
-				"small": "skills/fury/asmall",
-				"medium": "skills/fury/amedium",
-				"large": "skills/fury/alarge",
-				"scenarioBonus": "skills/fury/alargebonus"
+		"advanced" : {
+			"images" : {
+				"small" : "skills/fury/asmall",
+				"medium" : "skills/fury/amedium",
+				"large" : "skills/fury/alarge",
+				"scenarioBonus" : "skills/fury/alargebonus"
 			},
-			"description": "{Advanced Fury}\n\nBattle Fury increases the number of enemies killed by your units by 10%.",
+			"description" : "{Advanced Fury}\n\nBattle Fury increases the number of enemies killed by your units by 10%.",
 			"effects" : {
-				"main" : { "val" : 10}
+				"main" : {
+					"val" : 10
+				}
 			}
 		},
-		"expert": {
-			"images": {
-				"small": "skills/fury/esmall",
-				"medium": "skills/fury/emedium",
-				"large": "skills/fury/elarge",
-				"scenarioBonus": "skills/fury/elargebonus"
+		"expert" : {
+			"images" : {
+				"small" : "skills/fury/esmall",
+				"medium" : "skills/fury/emedium",
+				"large" : "skills/fury/elarge",
+				"scenarioBonus" : "skills/fury/elargebonus"
 			},
-			"description": "{Expert Fury}\n\nBattle Fury increases the number of enemies killed by your units by 15%.",
+			"description" : "{Expert Fury}\n\nBattle Fury increases the number of enemies killed by your units by 15%.",
 			"effects" : {
-				"main" : { "val" : 15}
+				"main" : {
+					"val" : 15
+				}
 			}
 		}
 	}
