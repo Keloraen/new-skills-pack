@@ -19,11 +19,11 @@
 		"config/heroes/nspellaria.json",
 		"config/heroes/nspnewt.json"
 	],
-    
+
 	"chinese" : {
 		"name" : "敏捷术",
 		"description" : "使你的单位能够部分规避敌人的攻击，从而降低敌人攻击力：<br>•&nbsp;降低：<b>5% / 10% / 15%</b>基于技能等级<br>•&nbsp;随机学会此技能的几率极低<br><br>•&nbsp;新增特长敏捷术的英雄：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>埃拉莉亚</b>壁垒阵营<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>纽特</b>要塞阵营"
-	},	
+	},
 	"czech" : {
 		"name" : "Obratnost",
 		"description" : "Umožňuje jednotkám částečně se vyhnout nepřátelským útokům, čímž snižují jeho útok o:<br>•&nbsp;<b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na obratnost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ellaria</b> pro Baštu<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Newt</b> pro Pevnost"

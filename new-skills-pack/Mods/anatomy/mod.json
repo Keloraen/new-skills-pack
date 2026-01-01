@@ -19,7 +19,7 @@
 		"config/heroes/nspteressa.json",
 		"config/heroes/nspgwydion.json"
 	],
-    
+
 	"chinese" : {
 		"name" : "解剖学",
 		"description" : "使你的部队能够洞察敌方弱点：<br>•&nbsp;造成双倍伤害的几率：<b>5% / 10% / 15%</b>基于技能等级<br>•&nbsp;随机学会此技能的几率极低<br><br>•&nbsp;新增特长解剖学的英雄：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>特蕾莎</b>墓园阵营<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>格威迪恩</b>塔楼阵营"

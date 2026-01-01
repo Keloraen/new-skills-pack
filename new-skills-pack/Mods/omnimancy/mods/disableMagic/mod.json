@@ -22,13 +22,11 @@
 	"objects" : [
 		"config/disableMagic/objects.json"
 	],
-    "factions": [
-        "config/disableMagic/buildings.json"
+	"factions" : [
+		"config/disableMagic/buildings.json"
 	],
-    "chinese":
-    {
-        "name" : "禁用单一魔法技能",
-        "description" : "禁用火系，水系，气系和土系魔法"
-    }
+	"chinese" : {
+		"name" : "禁用单一魔法技能",
+		"description" : "禁用火系，水系，气系和土系魔法"
+	}
 }
-
