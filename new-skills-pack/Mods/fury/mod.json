@@ -19,6 +19,10 @@
 		"config/heroes/nspex.json",
 		"config/heroes/nspaldarion.json"
 	],
+	"chinese" : {
+		"name" : "狂暴术",
+		"description" : "战斗狂暴增加你的单位击杀敌人的数量：<br>•&nbsp;增加：<b>5% / 10% / 15%</b>基于技能等级<br>•&nbsp;随机学会此技能的几率极低<br><br>•&nbsp;新增特长狂暴术的英雄：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>埃克丝</b>地狱阵营<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>奥尔达里昂</b>地下城阵营"
+	},	
 	"czech" : {
 		"name" : "Zuřivost",
 		"description" : "Bitevní zuřivost zvyšuje počet nepřátel zabitých tvými jednotkami:<br>•&nbsp;Navýšení: <b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na zuřivost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Ex</b> pro Inferno<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Aldarion</b> pro Kobku"
