@@ -27,5 +27,10 @@
 	],
     "factions": [
         "config/disableMagic/buildings.json"
-	]
+	],
+    "chinese":
+    {
+        "name" : "禁用单一魔法技能",
+        "description" : "禁用火系，水系，气系和土系魔法"
+    }
 }

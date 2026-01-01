@@ -20,7 +20,11 @@
 		"config/heroes/nspbjorn.json",
 		"config/heroes/nsptharag.json"
 	],
-
+    
+	"chinese" : {
+		"name" : "冲击术",
+		"description" : "利用你的单位难以置信的出手速度和力量削弱敌人防御：<br>•&nbsp;降低：<b>5% / 10% / 15%</b>基于技能等级<br>•&nbsp;随机学会此技能的几率极低<br><br>•&nbsp;新增特长冲击术的英雄：<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>比约恩</b>城堡阵营<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>萨拉格</b>据点阵营"
+	},
 	"czech" : {
 		"name" : "Údernost",
 		"description" : "Nečekaná rychlost a síla útoků tvých jednotek snižuje obranu nepřátel o:<br>•&nbsp;<b>5% / 10% / 15%</b> dle úrovně dovednosti<br>•&nbsp;Náhodné naučení této dovednosti je velmi vzácné<br><br>•&nbsp;Přidává nové hrdiny se specializací na údernost:<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Bjorn</b> pro Hrad<br>&nbsp;&nbsp;&nbsp;&nbsp;• <b>Tharag</b> pro Pevnost"
